@@ -77,12 +77,25 @@ button{
 }
 
 @media screen and (max-width: 900px) {
+    .nav{
+        font-size: large;
+    }
+    h2{
+        font-size: large;
+    }
     body {
       flex-direction: column;
       gap: 50px;
       padding: 0px 0;
       background-size: 100% 200%;
+      font-size: small;
     }
+    input{
+        max-width: 80%;
+        font-size: large;
+        justify-content: center;
+    }
+    
     .box{
         width: 80%;
         padding: 30px;
@@ -91,6 +104,7 @@ button{
         opacity: 0.9;
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
         margin: 40% 10% 0 10%;
+        font-size: small;
     }
     .nav{
         display: flex;
@@ -103,5 +117,12 @@ button{
     }
     .amount{
         padding-left: 20%;
+    }
+    button{
+        font-size: large;
+        max-width: 70%;
+        margin: 0 15% 0 15%;
+        border-radius: 10px;
+        padding: 0.2rem;
     }
   }
