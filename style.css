@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(23, 63, 151);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    gap: 2rem;
+    color: #fff;
+}
+body{
+    background-color: rgb(198, 232, 232);
+    background-image: url("bitcoin-2729807_1920.jpg");
+    background-size: 100% 180%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.box{
+    width: 50%;
+    padding: 30px;
+    border-radius: 7px;
+    background: #b3cccd;
+    opacity: 0.9;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+    margin: 7% 25% 0 25%;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.amount{
+    padding-left: 25%;
+}
+.drop-list{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    padding: 0 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.from,.to{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    max-width: 70%;
+    margin: 0 15% 0 15%;
+    border-radius: 5px black solid;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+      flex-direction: column;
+      gap: 50px;
+      padding: 0px 0;
+      background-size: 100% 200%;
+    }
+    .box{
+        width: 80%;
+        padding: 30px;
+        border-radius: 7px;
+        background: #b3cccd;
+        opacity: 0.9;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+        margin: 40% 10% 0 10%;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: rgb(23, 63, 151);
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        gap: 2rem;
+        color: #fff;
+    }
+    .amount{
+        padding-left: 20%;
+    }
+  }
