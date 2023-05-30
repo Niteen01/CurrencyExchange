@@ -5,11 +5,12 @@
 }
 .nav{
     display: flex;
+    font-size: x-large;
     flex-direction: row;
     justify-content: flex-end;
     background-color: rgb(23, 63, 151);
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    gap: 2rem;
+    padding: 2rem 3rem 2rem 3rem;
+    gap: 4rem;
     color: #fff;
 }
 body{
@@ -18,22 +19,28 @@ body{
     background-size: 100% 180%;
     background-repeat: no-repeat;
     width: 100%;
+    font-size: x-large;
 }
-h3{
+h2{
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
 }
-
+input{
+    min-width: 60%;
+    font-size: x-large;
+    justify-content: center;
+}
 
 .box{
     width: 50%;
     padding: 30px;
     border-radius: 7px;
     background: #b3cccd;
-    opacity: 0.9;
+    opacity: 0.95;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
     margin: 7% 25% 0 25%;
+    font-size: xx-large;
 
 }
 .form{
@@ -57,9 +64,11 @@ h3{
     justify-content: center;
 }
 button{
+    font-size: x-large;
     max-width: 70%;
     margin: 0 15% 0 15%;
-    border-radius: 5px black solid;
+    
+    padding: 1rem;
 }
 
 @media screen and (max-width: 900px) {
