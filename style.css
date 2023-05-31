@@ -68,6 +68,14 @@ input{
     padding:0.5rem 0.5rem;
     border-radius: 10px;
 }
+.outcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 0 20% 5% 20%;
+}
 button{
     font-size: x-large;
     max-width: 70%;
