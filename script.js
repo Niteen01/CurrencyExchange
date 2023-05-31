@@ -39,6 +39,6 @@ function getExchangeRate(){
         let finalamount = (amountVal * exchangeRate).toFixed(2);
         console.log(finalamount);
         exchangeRate = document.querySelector(".outcome");
-        exchangeRate.innerTExt= `${amountVal} ${fromcurr.value} = ${finalamount} ${tocurr.value}`;
+        exchangeRate.innerText= `${amountVal} ${fromcurr.value} = ${finalamount} ${tocurr.value}`;
     })
 }
