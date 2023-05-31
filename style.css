@@ -88,6 +88,18 @@ button{
     .nav{
         font-size: large;
     }
+    .drop-list{
+        margin-left: 1rem;
+    }
+    .select-box{
+        margin: 0;
+        padding: 0;
+        max-width: fit-content;
+        min-width: fit-content;
+    }
+    .fas{
+        margin-right: 1.5rem;
+    }
     h2{
         font-size: large;
     }
