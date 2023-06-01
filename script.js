@@ -22,8 +22,8 @@ for (let i = 0; i < dropList.length; i++) {
   });
 }
 
-function changeFlag(element) {
-  for (code in country_code) {
+function changeFlag(element){
+  for (code in country_code){
     if (code === element.value) {
       let imgTag = element.parentElement.querySelector("img");
       imgTag.src = `https://flagcdn.com/48x36/${country_code[code].toLowerCase()}.png`;
