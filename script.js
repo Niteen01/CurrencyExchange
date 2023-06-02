@@ -44,10 +44,11 @@ exchangeIcon.addEventListener("click", () => {
   let tempCode = fromcurr.value;
   fromcurr.value = tocurr.value;
   tocurr.value = tempCode;
-  loadFlag(fromcurr);
-  loadFlag(tocurr);
+  changeFlag(fromcurr);
+  changeFlag(tocurr);
   getExchangeRate();
 });
+
 
 function getExchangeRate() {
   const amount = document.querySelector("form input");
@@ -74,7 +75,7 @@ function getExchangeRate() {
       exchangeRateElement.innerText = `${amountVal} ${fromcurr.value} = ${finalAmount} ${tocurr.value}`;
     },
     error: function(error) {
-      console.log("An error occurred: ", error);
+      exchangeRateElement.innerText =`"An error occurred: "${error}`;
     }
   });
 }
